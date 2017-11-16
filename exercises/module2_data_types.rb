@@ -1,4 +1,5 @@
 # Module 2: Data Types
+# Author: Tertiary Courses Singapore
 
 # Numbers
 # a = 1
@@ -25,6 +26,14 @@
 # puts "Hello".downcase
 # puts "Hello".upcase
 # puts "Hello".length
+
+# Exercise
+# country = "france"
+# capital  = "paris"
+
+# The capital of France is PARIS
+# puts "The capital of #{country.capitalize} is #{capital.upcase}"
+
 
 # Array
 # a = [1,2,3]

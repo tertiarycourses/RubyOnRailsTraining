@@ -1,4 +1,5 @@
 # Module 6 Class
+# Author: Tertiary Courses Singapore
 
 # Class and Object
 # class Animal
@@ -15,7 +16,7 @@
 # animal = Animal.new
 # animal.make_noise
 
-# Attributes
+# Instance Attribute
 # class Animal
 #   def make_noise
 #     puts @noise
@@ -25,6 +26,15 @@
 # animal = Animal.new
 # animal.noise = "Moo!"	# Error
 # animal.make_noise
+
+# Class Attribute
+# class Animal
+
+# 	@@species = ['cat', 'cow', 'dog', 'duck']
+# 	def self.all_species
+# 		@@species
+# 	end
+# end
 
 # Getter and Setter
 # class Animal
@@ -41,21 +51,6 @@
 # animal.set_noise("Moo!")	
 # animal.make_noise
 
-# Ruby way
-# class Animal
-# 	def noise=(noise)
-# 	    @noise = noise
-# 	end
-	  
-# 	def noise
-# 	    puts @noise
-# 	end
-# end
-
-# animal = Animal.new
-# animal.noise = "Moo!"	
-# animal.noise
-
 #Access Attribute
 # class Animal
 #   attr_accessor :noise
@@ -66,27 +61,38 @@
 # puts animal.noise
 
 
-# Attribute Accessor  
-# class Animal
-#   attr_accessor :noise
+# Exercise: Class
 
-# animal = Animal.new
-# animal.noise = "Moo!"
-# puts animal.noise
+# class Counter
+# 	@@count = 0
 
-# Attribute Writer
-# class Animal
-#   attr_accessor :noise
-#   attr_writer	:color
+# 	def increment
+# 		@a = 1
+# 		@a = @a + 3
+# 		@@count = @@count + 1
 
-#   def show_color
-#   	puts "Animal color is #{@color}"
-#   end
+# 	end
+
+# 	def incrementBy(n)
+# 		@@count = @@count + n
+
+# 	end
+
+# 	def reset
+# 		@@count = 0
+
+# 	end
+
+# 	def showCount
+# 		puts @@count
+
+# 	end
+
 # end
 
-# animal = Animal.new
-# animal.color = "white"
-# animal.show_color
+# c1 = Counter.new
+# c1.increment
+# c1.showCount
 
 # Initalizer
 # class Animal
@@ -102,27 +108,39 @@
 # animal = Animal.new("Moo!",4,0)	
 # animal.make_noise
 
-# Class Method
-# class Animal
+# Exercise: Initialise
 
-# 	def self.all_species
-# 		['cat', 'cow', 'dog', 'duck', 'horse', 'pig']
+# class Rect
+
+# 	def initialize(length=5,width=5)
+# 		@length = length
+# 		@width = width
+# 	end
+
+# 	def area
+# 		return @length*@width
+# 	end
+
+# end
+
+# Exercise 2
+# class Person
+# 	def initialize(name,height,weight)
+# 		@name = name
+# 		@height = height
+# 		@weight = weight
+# 	end
+
+# 	def bmi
+# 		bmi = @weight*@weight/@height
+# 		puts "#{@name} BMI is #{bmi}"
 # 	end
 # end
 
-# Class Attribute
-# class Animal
-
-# 	@@species = ['cat', 'cow', 'dog', 'duck']
-# 	def self.all_species
-# 		@@species
-# 	end
-# end
 
 # puts Animal.all_species.inspect
 
-
-# inheritance
+# Inheritance
 # class Animal
 #   def make_noise
 #     puts "Moo!"
@@ -146,3 +164,31 @@
 
 # cow = Cow.new
 # cow.make_noise
+
+# Exercise: Inheritance
+
+# class Sq < Rect
+
+# 	def initialize(length)
+# 		super(length,length)
+# 	end
+
+# end
+
+# Exercise2: Inheritance
+
+# s1 = Sq.new(16)
+# puts s1.area
+
+# class Student < Person
+
+# 	def initialize(name,height,weight,grade)
+# 		super(name,height,weight)
+# 		@grade = grade
+# 	end
+
+# 	def showGrade()
+# 		puts "#{@name} grade is #{@grade}"
+# 	end
+
+# end

@@ -1,4 +1,5 @@
 # Module 3 : Control Flow
+# Author: Tertiary Courses Singapore
 
 # if-else
 # a = 1
@@ -55,13 +56,13 @@
 # end
 
 # Next
-x = 0
-loop do
-  x += 2
-  break if x >= 20
-  next if x == 6
-  puts x
-end
+# x = 0
+# loop do
+#   x += 2
+#   break if x >= 20
+#   next if x == 6
+#   puts x
+# end
 
 # For In Loop
 # a = [3,4,5]
@@ -82,11 +83,19 @@ end
 
 # Times Method
 # 3.times do |i|
-#    puts i
+# 	puts 'meow'
 # end
 
 # Upto Method
 # 1.upto(10) do |i|
 #   puts i
 # end
+
+# Exercise
+# a = []
+# for i in (1..10)
+# 	a.push(i*i)
+# end
+# puts a.inspect
+
 

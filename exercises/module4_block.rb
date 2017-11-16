@@ -1,4 +1,5 @@
 # Module 4 : Block Code
+# Author: Tertiary Courses Singapore
 
 # Find 
 # puts (1..10).find {|i| i % 3 == 0 }

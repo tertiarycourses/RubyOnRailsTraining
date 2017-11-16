@@ -1,4 +1,5 @@
 # Module 5 : Method
+# Author: Tertiary Courses Singapore
 
 # def add(a, b)
 # 	puts a + b
@@ -26,20 +27,14 @@
 
 # puts f(5)
 
-# def longest_word(words=[])
-#   longest_word = words.inject do |memo,word|
-#     memo.length > word.length ? memo : word
-#   end
-#   puts longest_word
-# end
+# Exercise
+# def fare(distance)
+# 	booking = 3
+# 	start = 2.50
+# 	cost = 1.5
+# 	fare = booking + start + (cost*distance)
+# 	puts "The fare is $#{fare}"
+# end 
 
-# fruits = ['apple', 'pear', 'banana', 'plum']
-# longe#st_word(fruits)
 
 
-# Scope
-def over_five
-	value = 6
-	puts value > 5 ? 'Over 5' : 'Not over 5'
-end
-over_five

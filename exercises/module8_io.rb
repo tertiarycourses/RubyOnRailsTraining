@@ -1,4 +1,5 @@
 # Module 8 Inputs/Outputs
+# Author: Tertiary Courses Singapore
 
 # Input
 # print "What is your name "
