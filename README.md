@@ -10,7 +10,7 @@ https://www.tertiarycourses.com.sg/ruby-on-rails-5-essential-training.html
 https://www.tertiarycourses.com.my/ruby-on-rails-5-essential-training-malaysia.html
 
 <h2>Day 1 : Ruby</h2>
-<p><br /><strong>Module 1 Get Ready</strong></p>
+<p><br /><strong>Module 1 Get Ready</strong> </p>
 <ul>
 <li>What is Ruby</li>
 <li>Install Ruby</li>
@@ -32,45 +32,48 @@ https://www.tertiarycourses.com.my/ruby-on-rails-5-essential-training-malaysia.h
 <ul>
 <li>Conditional</li>
 <li>Loops</li>
+<li>Iterators</li>
 </ul>
 <p><strong>Module 4 Block Codes</strong> </p>
 <ul>
-<li>Find and FindAll</li>
-<li>Any and All?</li>
+<li>Find and Detect</li>
+<li>Any and All</li>
 <li>Collect</li>
 </ul>
 <p><strong>Module 5 Method</strong> </p>
 <ul>
-<li>Function Syntax</li>
+<li>Method Syntax</li>
 <li>Default Parameter</li>
 <li>Return Value</li>
+<li>Multiple Arguments</li>
+<li>Multiple Output</li>
 </ul>
-<p><strong>Module 6 Class</strong> </p>
+<p><strong>Module 6 Object Oriented Programming</strong> </p>
 <ul>
 <li>Class &amp; Object</li>
-<li>Method</li>
-<li>Attribute</li>
+<li>Method&nbsp;</li>
+<li>Class and Instance Attributes</li>
 <li>Initializer</li>
 <li>Inheritance</li>
 </ul>
 <p><strong>Module 7 Modules &amp; Mixin</strong></p>
 <ul>
-<li>Namespace &amp; Module</li>
+<li>What is Module?</li>
+<li>Namespace</li>
 <li>Mixin</li>
 <li>Load Module</li>
 </ul>
 <p><strong>Module 8 Input and Output</strong></p>
 <ul>
-<li>Inputs</li>
-<li>Read File</li>
 <li>Write File</li>
+<li>Read File</li>
 </ul>
 <h2>Day 2 : Ruby on Rails</h2>
 <p><br /><strong>Module 9 Installs Ruby on Rails</strong> </p>
 <ul>
 <li>RubyGEM</li>
 <li>Install Rails</li>
-<li>Launch a New Project</li>
+<li>Launch a New Rails Project</li>
 <li>Install MySQL</li>
 <li>Create Database</li>
 </ul>
@@ -81,25 +84,20 @@ https://www.tertiarycourses.com.my/ruby-on-rails-5-essential-training-malaysia.h
 <li>View</li>
 <li>Route</li>
 </ul>
-<p><strong>Module 11: Template Rendering</strong></p>
+<p><strong>Module 11: Embedded Ruby and Template</strong></p>
 <ul>
+<li>What is Embedded Ruby&nbsp;</li>
 <li>Render Template</li>
 <li>Redirect</li>
-<li>Embedding Ruby as ERB</li>
-<li>Instance Variable</li>
-<li>Rails Link</li>
+<li>Passing Data to URL</li>
+<li>Getting Data from URL</li>
+<li>Links</li>
 </ul>
-<p><strong>Module 12: Model &amp; Migration</strong></p>
+<p><strong>Module 12: Model and Migratio</strong>n</p>
 <ul>
-<li>What is Migration</li>
-<li>Migration Instructions</li>
-<li>Generate Model</li>
-<li>Table Column Types</li>
-<li>Table Column Options</li>
+<li>What is Migration?&nbsp;</li>
+<li>What is Model?&nbsp;</li>
+<li>Create Model</li>
 <li>Run a Migration</li>
-<li>Rail Console</li>
-<li>Create Record</li>
-<li>Update Record</li>
-<li>Find Record</li>
-<li>Where, Order, Limit</li>
+<li>Database CRUD</li>
 </ul>
