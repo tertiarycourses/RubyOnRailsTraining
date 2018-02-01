@@ -4,10 +4,10 @@
 # Conditional
 # a = 2
 # b = 2
-# if a >b 
-# 	puts "a is larger than b"
-# elsif a >b
+# if a<b
 # 	puts "a is smaller than b"
+# elsif a>b
+# 	puts "a is larger than b"
 # else 
 # 	puts "a is same as b"
 # end
@@ -15,7 +15,7 @@
 # Ternary Operator
 # order = 100
 # discount = order > 200? 25:0
-# puts discoun
+# puts discount
 
 # Exercise
 # grade = 'B'
@@ -32,6 +32,7 @@
 
 # Case-When
 # grade = 'E'
+
 # case grade 
 # when 'A'
 # 	puts "Excellent"
@@ -45,28 +46,38 @@
 
 # Loop
 
-# x = 0
-# while x < 10 
-# 	puts x
-# 	x += 1
+# a = []
+# i = 1
+# while i<=10
+# 	a.push(i*i)
+# 	i = i+1
 # end
 
-# Do Loop
-# x = 0
+# i = 1
 # loop do
-# 	break if x >= 10
+# 	a.push(i*i)
+# 	i = i+1
+# 	break if i>10
+# end
+# puts a.inspect
+
+# do loop
+
+# x = 1
+# loop do 
+# 	break if x>10
+# 	#next if x==4
 # 	puts x
-# 	x += 1
+# 	x = x + 1
 # end
 
-# Next
-# x = 0
-# loop do
-#   x += 2
-#   break if x >= 20
-#   next if x == 6
-#   puts x
+# while
+# x = 1
+# while x<10
+# 	puts x
+# 	x = x+1
 # end
+
 
 # Exercise 
 
@@ -84,36 +95,51 @@
 # 	break if i>10
 # end
 
-# Iterators
+# Iterator
 
-# For In Loop
-# a = [3,4,5]
-# for i in a
-#   puts i
+# 1.upto(10) do |i|
+# 	a.push(i*i)
+# end
+# puts a.inspect
+
+# for i in 1..10
+# 	a.push(i*i)
+# end
+# puts a.inspect
+# 10.times do |i|
+# 	a.push(i*i)
+# end
+# puts a.inspect
+
+
+# 1.upto(3) do |i|
+# 	puts i
 # end
 
-# Each Do Loop
-# a = [3,4,5]
-# a.each do |i|
-#   puts i
+# 1.upto(3) do 
+# 	puts "Hello"
+# end
+
+# 3.times do 
+# 	puts "Hello"
 # end
 
 # (1..10).each do |i|
 # 	puts i
 # end
 
-# Times Method
-# 3.times do
-# 	puts 'Hello'
+# a = [3,4,5]
+
+# a.each do
+# 	puts "Hello"
 # end
 
-# Upto Method
-# 1.upto(3) do |i|
-#   puts i
+# a.each do |i|
+# 	puts i
 # end
 
-# 1.upto(3) do 
-#   puts "Hellow"
+# for i in a
+# 	puts i
 # end
 
 # Exercise
