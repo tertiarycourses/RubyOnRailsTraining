@@ -1,0 +1,37 @@
+<h1>Hello from Demo Index </h1>
+
+<% 1+1 %>
+<%= 1+5 %><br/>
+
+<% name = "Alfred" %>
+<%= "Hello #{name}" %>
+
+<br>
+<% a = [1,2,3] %>
+<% a.each do |i| %>
+<%= i %><br>
+<% end %> 
+
+<% @num.each do |i| %>
+<%= i %><br>
+<% end %>
+
+<h2>My favorite fruits are: </h2>
+<ul>
+<% @fruits.each do |i| %>
+<li><%= i %></li>
+<% end %>
+</ul>
+
+<h2>Link here </h2>
+<%= link_to('Apple','http://apple.com') %><br>
+<%= link_to('Hello', {:action => 'hello', :name => 'alfred', :id => 4}) %><br />
+
+<h2>My Subjects</h2>
+<ul>
+<% subjects = Subject.all %>
+<% subjects.each do |subject| %>
+<li><%= subject.name %></li>
+<% end %>
+</ul>
+	

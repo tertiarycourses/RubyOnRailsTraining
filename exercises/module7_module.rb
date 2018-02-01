@@ -2,28 +2,103 @@
 # Author: Tertiary Courses Singapore
 
 # Namespace and Module
+
 # module Singapore
-#   class Animal
-#     def make_noise
-#       puts "Moo!"
-#     end
-#   end
+# class Animal
+	
+# 	def initialize(legs,color)
+# 		@legs = legs
+# 		@color = color
+# 	end
+
+# 	def talk
+# 		puts "talk like an animal"
+# 	end
+
+# 	def num_legs
+# 		puts "I have #{@legs} legs"
+# 	end
+
+# 	def show_color
+# 		puts "My color is #{@color}"
+# 	end
+
+# 	def country
+# 		puts "I am from Singapore"
+# 	end
+# end
+#end
+
+# module Sri_Lanka
+# class Animal
+
+# 	def initialize(legs,color)
+# 		@legs = legs
+# 		@color = color
+# 	end
+
+# 	def talk
+# 		puts "talk like an animal"
+# 	end
+
+# 	def country
+# 		puts "I am from Sri Lanka"
+# 	end
+
+# end
+# end
+
+# a1 = Sri_Lanka::Animal.new(4,"white")
+
+# Exercise
+
+# module Singapore
+# class Person
+
+# 	def initialize(name,weight,height)
+# 		@name = name
+# 		@weight = weight
+# 		@height = height
+# 	end
+
+# 	include Contact
+
+# 	def country
+# 		puts "I am from Singapore"
+# 	end
+
+# 	def bmi
+# 		puts "#{@name} bmi is #{@weight*@weight/@height}"
+# 	end
+# end
 # end
 
 # module Malaysia
-#   class Animal
-#     def make_noise
-#       puts "Moooooo!"
-#     end
-#   end
+# class Person
+
+# 	def initialize(name,weight,height)
+# 		@name = name
+# 		@weight = weight
+# 		@height = height
+# 	end
+
+# 	include Contact
+
+# 	def country
+# 		puts "I am from Malaysia"
+# 	end
+
+# 	def bmi
+# 		puts "#{@name} bmi is #{@weight*@weight/@height}"
+# 	end
+# end
 # end
 
-# animal = Singapore::Animal.new
-# animal.make_noise
+# p1 = Singapore::Person.new("Ally",70,170)
 
-# animal2 = Malaysia::Animal.new
-# animal2.make_noise
-
+# p2 = Malaysia::Person.new("Belinda",60,160)
+# p2.contact
+# p2.country
 
 # Mixins
 # module ContactInfo
@@ -41,11 +116,11 @@
 #   end
 # end
 
-# class Person
-#   include ContactInfo
-# end
+# Load Module
+load 'mymodules.rb'
 
-# class Teacher
-#   include ContactInfo
-#   attr_accessor :lesson_plans
-# end
+d1 = MyModule::Dog.new("Ally",4,"white")
+d1.info
+
+c1 = MyModule::Cat.new("Ally",4,"black")
+c1.info

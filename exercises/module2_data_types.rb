@@ -37,42 +37,14 @@
 
 # Array
 # a = [1,2,3]
-# a = [*1..10]
 # puts a 
 # a = [1,2,3]
 # puts a.inspect
 
 # a[0] = 3
-# a << 4
-# puts a
-# a = ['hi',2,3]
-# puts a 
-# a.clear
-# puts a 
-# a = []
-# puts a 
-
-# Join & Split
-# a = [2,3,4]
-# b = a.join(",")
-# puts b
-# c = b.split(',')
-# puts c 
-
-# Reverse & Sort
-# a = [5,2,3,4]
-# b = a.reverse
-# puts b
-# c = b.sort
-# puts c
-
-# Delete
-# a = [5,2,3,4]
-# a.delete(3)
-# puts a 
-
 # Push & Pop
-# a.push(8)
+# a << 4
+# a.push(5)
 # puts a 
 # a.pop
 # puts a
@@ -83,6 +55,33 @@
 # a.unshift(1)
 # puts a 
 
+# Join & Split
+# a = "Hello, World"
+# b = a.split(',')
+# c = b.join(" ")
+# puts c
+
+# Exercise
+# email = "abc@def.com"
+# split = email.split("@")
+# puts "user name is #{split[0]}"
+# puts "domain is #{split[1]}"
+
+# Clear and Delete
+# a = [1,2,3,2]
+# # a.clear
+# # a = []
+# a.delete(2)
+# puts a.inspect
+
+# Reverse & Sort
+# a = [5,1,2,3,4]
+# b = a.reverse
+# puts b.inspect
+# c = a.sort
+# puts c.inspect
+
+
 # Hash
 # hash = {'a'=>1,'b'=>2,'c'=>3}
 # puts hash
@@ -91,14 +90,17 @@
 # puts hash.values
 # puts hash.length
 
+# Merge 
+h1 = { "a" => 111, "b" => 222 }
+h2 = { "b" => 333, "c" => 444 }
+h3 = h1.merge(h2)
+puts h3
+
 # Symbol
 
-# test = "Physics"
-# puts test.object_id
-# puts :test.object_id
-# test = "Chemistry"
-# puts test.object_id
-# puts :test.object_id
+# a = "Hello"
+# puts a.object_id
+# puts :a .object_id
 
 # hash = {:a =>1,:b=>2,:c=>3}
 # puts hash[:b]
@@ -112,16 +114,14 @@
 # puts !a
 
 # Ranges
-# a = *[1..10]
+# a = [*1..10]
 # puts a.inspect
 
 # a = 1..10
 # puts a
 # puts *a
 # puts a.begin
-# puts a.end
-# puts a.first
-# puts a.end
+# puts a.last
 # puts a.include?(3)
 
 

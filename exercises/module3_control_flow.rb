@@ -1,42 +1,46 @@
 # Module 3 : Control Flow
 # Author: Tertiary Courses Singapore
 
-# if-else
-# a = 1
-# b = 2
-# if a >b 
-# 	puts "a is larger than b"
-# else
-# 	puts "a is smaller than b"
-# end
-
-# Ternary Operator
-# a = 1
-# puts a > 5 ? 'Over 5' : 'Not over 5'
-
-# if-elseif-else
+# Conditional
 # a = 2
 # b = 2
 # if a >b 
 # 	puts "a is larger than b"
-# elseif a >b
+# elsif a >b
 # 	puts "a is smaller than b"
 # else 
 # 	puts "a is same as b"
 # end
 
+# Ternary Operator
+# order = 100
+# discount = order > 200? 25:0
+# puts discoun
+
+# Exercise
+# grade = 'B'
+
+# if grade == 'A'
+# 	puts "Excellent"
+# elsif grade == 'B'
+# 	puts 'Good job'
+# elsif grade == 'C'
+# 	puts 'Work harder'
+# else
+# 	puts "I don't know your grade"
+# end
+
 # Case-When
 # grade = 'E'
-
-# case
-# when grade == 'A'
-#   puts "Excellent!"
-# when grade == 'B'
-#   puts "Well Done!"
-# when grade == 'C'
-#   puts "Word Harder"
+# case grade 
+# when 'A'
+# 	puts "Excellent"
+# when 'B'
+# 	puts 'Good job'
+# when'C'
+# 	puts 'Work harder'
 # else
-#   puts "I don't know your grade"
+# 	puts "I don't know your grade"
 # end
 
 # Loop
@@ -64,6 +68,24 @@
 #   puts x
 # end
 
+# Exercise 
+
+# a = []
+# i = 1
+# while i<=10
+# 	a.push(i*i)
+# 	i = i+1
+# end
+
+# i = 1
+# loop do
+# 	a.push(i*i)
+# 	i = i+1
+# 	break if i>10
+# end
+
+# Iterators
+
 # For In Loop
 # a = [3,4,5]
 # for i in a
@@ -71,7 +93,6 @@
 # end
 
 # Each Do Loop
-
 # a = [3,4,5]
 # a.each do |i|
 #   puts i
@@ -82,13 +103,17 @@
 # end
 
 # Times Method
-# 3.times do |i|
-# 	puts 'meow'
+# 3.times do
+# 	puts 'Hello'
 # end
 
 # Upto Method
-# 1.upto(10) do |i|
+# 1.upto(3) do |i|
 #   puts i
+# end
+
+# 1.upto(3) do 
+#   puts "Hellow"
 # end
 
 # Exercise

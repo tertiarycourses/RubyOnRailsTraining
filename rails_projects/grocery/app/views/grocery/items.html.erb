@@ -1,0 +1,12 @@
+<h1>My Grocery Items</h1>
+
+<table border=1 width="200px">
+<% items = Item.all %>
+<% items.each do |item| %>
+<tr>
+<td><%= item.name %></td>
+<td><%= item.cost %></td>
+<td><%= item.quantity %></td>
+</tr>
+<% end %>
+</ul>

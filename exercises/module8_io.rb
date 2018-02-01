@@ -16,7 +16,16 @@
 # file.close
 
 # Read File
-# File.open('file1.txt', 'r') do |file|
-#   file.each_line {|line| puts line.upcase }
+# f = File.open('test.txt','r')
+
+# File.open('test.txt','r') do |f|
+#    f.each_line {|line| puts line.upcase}
 # end
+
+# 10.times do
+#	f.puts("Hello2")
+# end
+
+# f.close
+#f.puts("Hello2")
 
